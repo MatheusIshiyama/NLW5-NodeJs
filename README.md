@@ -42,6 +42,10 @@ A terceira aula a gente fez uma pequena refatoração do código criando um **Se
 
 **Services**: São funções que o `Controller` irá utilizar.
 
+**Aula 4**
+
+A quarta e penúltima aula a gente fez a implementação do websocket com o `socket.io` e fizemos uma pequena configuração do websocket e o client(html).
+
 ---
 
 Agradecimento à **Rocketseat** 🚀 pelo evento incrível!💜
