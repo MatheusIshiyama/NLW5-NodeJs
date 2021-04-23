@@ -20,13 +20,13 @@ A proposta deste NLW é desenvolver um backend de um chat entre um usuário e al
 
 ## Conteúdo
 
-**Aula 1**
+**Dia 1**
 
-A primeira aula foi para explicar conceitos sobre as tecnologias a serem utilizadas, o motivo de utilizar `Typescript` ao invés do `Javascript`, o _database_ a ser utilizado e como iniciar o projeto e adicionar as dependências.
+O primeiro dia foi para explicar conceitos sobre as tecnologias a serem utilizadas, o motivo de utilizar `Typescript` ao invés do `Javascript`, o _database_ a ser utilizado e como iniciar o projeto e adicionar as dependências.
 
-**Aula 2**
+**Dia 2**
 
-A segunda aula foi para entender os conceitos do `database` e as ferramentas que iriam ser utilizadas, além de terminar de fazer as configurações do `Typescript`.
+O segundo dia foi para entender os conceitos do `database` e as ferramentas que iriam ser utilizadas, além de terminar de fazer as configurações do `Typescript`.
 
 O projeto irá utilizar o `SQLite`, e foi definido que o `Typeorm` será a ferramenta que irá configurar o _database_. Com o `Typeorm` foi criado o `migrations` e o nosso `database.sqlite`.
 
@@ -36,15 +36,18 @@ Foi feito também uma estrutura para criação de `Settings`, separados em **Ent
 **Repository**: Ele é responsável pela manipulação dos dados entre a `entidade` e o `database`.
 **Controller**: Ele é reponsável pela comunicação entre o quê está vindo da rota e o `repository`.
 
-**Aula 3**
+**Dia 3**
 
-A terceira aula a gente fez uma pequena refatoração do código criando um **Services** para fazer o gerenciamento da manipulação do `repository` e criamos a **Entity**, **Repository**, **Controller** e **Services** do `User` e `Messages`.
+No terceiro dia a gente fez uma pequena refatoração do código criando um **Services** para fazer o gerenciamento da manipulação do `repository` e criamos a **Entity**, **Repository**, **Controller** e **Services** do `User` e `Messages`.
 
 **Services**: São funções que o `Controller` irá utilizar.
 
-**Aula 4**
+**Dia 4**
+No quarto e penúltimo dia a gente fez a implementação do websocket com o `socket.io` e fizemos uma pequena configuração do websocket e o client(html).
 
-A quarta e penúltima aula a gente fez a implementação do websocket com o `socket.io` e fizemos uma pequena configuração do websocket e o client(html).
+**Dia 5**
+
+No quinto e último dia a gente finalizou a integração do socket, fazendo o fluxo de chat entre o usuário e atentente e assim terminamos a aplicação.
 
 ---
 
